@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Bookstore</title>
+</head>
+<body>
+
+    <h1>Welcome to Our Online Bookstore</h1>
+
+    <p>Find your next favorite book.</p>
+
+    <input type="text" placeholder="Search for a book">
+    <button>Search</button>
+
+    <h2>Featured Books</h2>
+
+    <div>
+        <h3>The Great Gatsby</h3>
+        <p>F. Scott Fitzgerald</p>
+        <button>View Book</button>
+    </div>
+
+    <div>
+        <h3>1984</h3>
+        <p>George Orwell</p>
+        <button>View Book</button>
+    </div>
+
+</body>
+</html>
