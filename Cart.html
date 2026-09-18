@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Bookstore</title>
+</head>
+<body>
+
+    <h1>Online Bookstore</h1>
+
+    <h2>Books</h2>
+
+    <div>
+        <h3>The Great Gatsby</h3>
+        <p>$10</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div>
+        <h3>1984</h3>
+        <p>$12</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <h2>Shopping Cart</h2>
+
+    <p>Items in cart: <span id="cartCount">0</span></p>
+
+    <script>
+        let cartCount = 0;
+
+        function addToCart() {
+            cartCount++;
+            document.getElementById("cartCount").innerText = cartCount;
+        }
+    </script>
+
+</body>
+</html>
