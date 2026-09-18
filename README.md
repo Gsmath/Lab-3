@@ -9,6 +9,6 @@ Allows users to search the bookstore catalog by title, author, or ISBN.
 - If no match is found, a "No books found" message is displayed
 
 ### Status
-Implemented by: [your name]
+Implemented by: [michelsayegh2016-cloud]
 Branch: `search-books`
 Closes #2
