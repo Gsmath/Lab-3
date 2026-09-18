@@ -11,4 +11,4 @@ Allows users to search the bookstore catalog by title, author, or ISBN.
 ### Status
 Implemented by: [michelsayegh2016-cloud]
 Branch: `search-books`
-Closes #2
+Closes #3
